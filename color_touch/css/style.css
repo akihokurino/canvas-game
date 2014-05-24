@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #000;
+}
+
+canvas{
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#point{
+	color: #fcfcfc;
+	text-align: center;
+	margin-top: 15px;
+	width:210px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+#sub-info{
+	color: #fcfcfc;
+}
+
+#speedCont{
+	margin-top: 15px;
+	text-align: center;
+	width: 210px;
+	margin: 0 auto;
+}
+
+#speedCont span{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 25px;
+	margin-right: 30px;
+	background-color: #fcfcfc;
+	color: #444;
+	cursor: pointer;
+}
+
+#fast{
+	margin-right: 0px !important;
+}
+
+#desc{
+	text-align: center;
+	color: #fcfcfc;
+	margin-top: 25px;
+}
+
+.color{
+	height: 30px;
+	width: 140px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.num{
+	line-height: 30px;
+	height: 30px;
+	width: 100px;
+	float: right;
+
+}
+
+#blue{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: blue;
+	margin-right: 10px;
+}
+
+#green{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: green;
+	margin-right: 10px;
+}
+
+#red{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: red;
+	margin-right: 10px;
+}
+
+#pink{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #ff1493;
+	margin-right: 10px;
+}

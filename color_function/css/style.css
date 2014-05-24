@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, #container {
+    height: 100%;
+}
+
+body{
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #000000;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+#container{
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+#canvas_zone{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+
+#color_controller{
+	position: relative;
+	z-index: 2;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#color_1{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+#color_2{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.inner{
+	padding: 10px;
+}
+
+
+#left_image_zone{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 150px;
+	height: 720px;
+}
+
+#right_image_zone{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 150px;
+	height: 720px;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 30px;
+	opacity: 0;
+	cursor: pointer;
+}
+
